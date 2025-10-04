@@ -1,0 +1,21 @@
+(INFO) [helpers] open_file_with_ext failed (tests/valid/macro_test..ext, mode: r)
+=== PREPROCESSING STAGE ===
+Input:  tests/valid/macro_test.as
+Output: tests/valid/macro_test.am
+Expanding macros...
+Preprocessing completed successfully!
+
+=== FIRST PASS - SYMBOL TABLE CONSTRUCTION ===
+Processing: tests/valid/macro_test.am
+Building symbol table and analyzing instructions...
+First pass completed! IC=112, DC=5
+
+=== SECOND PASS - CODE GENERATION ===
+Processing: tests/valid/macro_test.am
+Resolving symbols and generating output files...
+Second pass completed successfully!
+Generated files:
+  - tests/valid/macro_test.ob (object file)
+  - tests/valid/macro_test.ent (entry symbols)
+Assembly complete for tests/valid/macro_test!
+

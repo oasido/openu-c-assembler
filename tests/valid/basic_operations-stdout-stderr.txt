@@ -1,0 +1,21 @@
+=== PREPROCESSING STAGE ===
+Input:  tests/valid/basic_operations.as
+Output: tests/valid/basic_operations.am
+Expanding macros...
+Preprocessing completed successfully!
+
+=== FIRST PASS - SYMBOL TABLE CONSTRUCTION ===
+Processing: tests/valid/basic_operations.am
+Building symbol table and analyzing instructions...
+First pass completed! IC=137, DC=24
+
+=== SECOND PASS - CODE GENERATION ===
+Processing: tests/valid/basic_operations.am
+Resolving symbols and generating output files...
+Second pass completed successfully!
+Generated files:
+  - tests/valid/basic_operations.ob (object file)
+  - tests/valid/basic_operations.ent (entry symbols)
+  - tests/valid/basic_operations.ext (external references)
+Assembly complete for tests/valid/basic_operations!
+

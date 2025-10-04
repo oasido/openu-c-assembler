@@ -1,0 +1,29 @@
+; basic_operations.as - test basic assembly operations
+
+.entry MAIN
+.entry DATAVAL
+.extern EXTERNALFUNC
+
+MAIN:   mov r1, r2
+        add #5, r3
+        sub r7, DATAVAL
+        inc r0
+        dec r1
+        lea ARRAY[r2][r3], r4
+        clr r5
+        not r6
+        red r7
+        prn #-100
+        jmp EXTERNALFUNC
+        bne MAIN
+        jsr LOOP
+        rts
+        stop
+
+LOOP:   cmp r1, r2
+        bne MAIN
+        rts
+
+ARRAY:  .mat [3][3] 1,2,3,4,5,6,7,8,9
+DATAVAL: .data 42, -15, 256
+TEXT:   .string "Hello World"

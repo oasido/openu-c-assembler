@@ -1,0 +1,11 @@
+(ERROR) [assembler] memory overflow: program requires 357 words but maximum is 256 words
+=== PREPROCESSING STAGE ===
+Input:  tests/invalid/memory_overflow.as
+Output: tests/invalid/memory_overflow.am
+Expanding macros...
+Preprocessing completed successfully!
+
+=== FIRST PASS - SYMBOL TABLE CONSTRUCTION ===
+Processing: tests/invalid/memory_overflow.am
+Building symbol table and analyzing instructions...
+First pass completed! IC=107, DC=250

@@ -1,0 +1,22 @@
+(ERROR) [first_pass] immediate value 1000 out of range (-128 to 127) at line 2
+(ERROR) [first_pass] immediate value -1000 out of range (-128 to 127) at line 3
+(ERROR) [first_pass] immediate value 32767 out of range (-128 to 127) at line 5
+(ERROR) [first_pass] number out of range in .data at line 7 near '1000'
+(ERROR) [first_pass] number out of range in .data at line 7 near '-1000'
+(ERROR) [first_pass] number out of range in .data at line 7 near '32767'
+(ERROR) [first_pass] number out of range in .data at line 8 near '512'
+(ERROR) [first_pass] number out of range in .data at line 8 near '-513'
+(ERROR) [first_pass] number out of range in .mat at line 9 near '600'
+(ERROR) [first_pass] number out of range in .mat at line 9 near '-600'
+(ERROR) [first_pass] number out of range in .mat at line 9 near '1000'
+(ERROR) [first_pass] number out of range in .mat at line 9 near '-1000'
+(ERROR) [assembler] first_pass failed for 'tests/invalid/range_errors.am'
+=== PREPROCESSING STAGE ===
+Input:  tests/invalid/range_errors.as
+Output: tests/invalid/range_errors.am
+Expanding macros...
+Preprocessing completed successfully!
+
+=== FIRST PASS - SYMBOL TABLE CONSTRUCTION ===
+Processing: tests/invalid/range_errors.am
+Building symbol table and analyzing instructions...

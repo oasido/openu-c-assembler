@@ -1,0 +1,8 @@
+.entry START
+START: mov r1, r2
+add #10, r1
+lea DATAARR[r0][r1], r3
+prn #-1
+stop
+DATAARR: .mat [2][2] 10, 20, 30, 40
+VALUE: .data 123

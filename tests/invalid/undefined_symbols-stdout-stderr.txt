@@ -1,0 +1,20 @@
+(ERROR) [second_pass] undefined symbol 'undefinedLabel'
+(ERROR) [second_pass] undefined symbol 'missingLabel'
+(ERROR) [second_pass] undefined symbol 'NONEXISTENT'
+(ERROR) [second_pass] undefined symbol 'ANOTHERMISSING'
+(ERROR) [second_pass] entry symbol 'undefinedSymbol' not found
+(ERROR) [assembler] second_pass failed for 'tests/invalid/undefined_symbols'
+=== PREPROCESSING STAGE ===
+Input:  tests/invalid/undefined_symbols.as
+Output: tests/invalid/undefined_symbols.am
+Expanding macros...
+Preprocessing completed successfully!
+
+=== FIRST PASS - SYMBOL TABLE CONSTRUCTION ===
+Processing: tests/invalid/undefined_symbols.am
+Building symbol table and analyzing instructions...
+First pass completed! IC=118, DC=6
+
+=== SECOND PASS - CODE GENERATION ===
+Processing: tests/invalid/undefined_symbols.am
+Resolving symbols and generating output files...

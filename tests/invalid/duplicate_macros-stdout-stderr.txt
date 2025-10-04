@@ -1,0 +1,6 @@
+(ERROR) [preprocessor] macro_create: macro 'test_macro' was defined more than once
+(ERROR) [assembler] failed the preprocessing stage for 'tests/invalid/duplicate_macros'
+=== PREPROCESSING STAGE ===
+Input:  tests/invalid/duplicate_macros.as
+Output: tests/invalid/duplicate_macros.am
+Expanding macros...
