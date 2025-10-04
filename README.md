@@ -26,7 +26,7 @@ _happiness 😇 or sadness 😭_
 
 ```bash
 make
-./assembler filename1.as filename2.as ...
+./assembler filename1 filename2 ... # files need must have .as format
 ```
 
 ## output files
